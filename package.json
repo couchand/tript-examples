@@ -1,0 +1,22 @@
+{
+  "name": "tript-examples",
+  "version": "0.0.1",
+  "description": "Usage examples of the Tript scripting language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/couchand/tript-examples"
+  },
+  "author": "Andrew Couch <tript@andrewcou.ch>",
+  "license": "MIT",
+  "dependencies": {
+    "tript-ast": "0.0.1",
+    "tript-compile": "0.0.1",
+    "tript-interp": "0.0.1",
+    "tript-schema": "0.0.1",
+    "z-schema": "^3.16.1"
+  }
+}
